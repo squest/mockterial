@@ -8,7 +8,7 @@
 
 
 (defn mount-root []
-  (rc/render [views/main-panel]
+  (rc/render [views/main-page]
              (.getElementById js/document "app")))
 
 (defn ^:export init []
