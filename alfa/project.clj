@@ -51,8 +51,8 @@
    :builds
    [{:id           "app"
      :source-paths ["src/cljs"]
+     :figwheel     true
      :compiler     {:main            alfa.core
-                    :figwheel        true
                     :output-dir      "resources/public/js/compiled"
                     :asset-path      "/js/compiled"
                     :output-to       "resources/public/js/app.js"
